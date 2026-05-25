@@ -37,3 +37,6 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+springBoot {
+    mainClass = 'com.ecommerce.catalgo.CatalgoApplication'
+}
